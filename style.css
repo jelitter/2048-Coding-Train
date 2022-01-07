@@ -10,11 +10,21 @@ body {
 }
 
 #score {
-  width: 400px;
-  text-align: right;
+  color: #776e65;
   font-family: fantasy;
   font-size: 4rem;
   line-height: 7rem;
   margin: 0;
-  color: #776e65;
+  text-align: right;
+  text-shadow: 2px 2px 4px black;
+  width: calc(400px + 1rem);
+}
+
+canvas {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 16px black;
+  height: 400px;
+  padding: 1rem;
+  width: 400px;
 }
